@@ -23,11 +23,11 @@ var b = 3
  *  Store this value in a variable named `sum`.
  */
 
-function add(a, b){
-	return a + b;
+function add(num1, num2){
+	return num1 + num2;
 }
 
-var sum = add(a, b);
+var sum = add(10, 5);
 // console.log(sum);
 
 
@@ -40,11 +40,11 @@ var sum = add(a, b);
  *  Store this value in a variable named `difference`
  */
 
-function subtract(a, b){
-	return a - b;
+function subtract(num1, num2){
+	return num1 - num2;
 }
 
-var difference = subtract(a, b);
+var difference = subtract(4, 2);
 /**
  *  #4
  *  Function - multiply
@@ -53,12 +53,12 @@ var difference = subtract(a, b);
  *  Store this value in a variable named `product`
  */
 
-function multiply(){
-	return b * a;
+function multiply(num1, num2){
+	return num1 * num2;
 
 }
 
-var product = multiply();
+var product = multiply(2, 4);
 /**
  *  #5
  *  Function - checkDifference
@@ -69,6 +69,7 @@ var product = multiply();
  *  value stored in `difference`.
  */
 
+function 
 
 /**
  *  #6
