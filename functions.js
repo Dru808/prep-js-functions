@@ -12,6 +12,8 @@
  *  functions.
  */
 
+var a = 2
+var b = 3
 
 /**
  *  #2
@@ -20,6 +22,14 @@
  *  This function returns the result of adding `a` and `b` together.
  *  Store this value in a variable named `sum`.
  */
+
+function add( a, b ){
+	return a + b;
+}
+
+var sum = add(a, b);
+// console.log(sum);
+
 
 
 /**
@@ -30,7 +40,11 @@
  *  Store this value in a variable named `difference`
  */
 
+function subtract(a, b){
+	return a - b;
+}
 
+var difference = subtract(a, b);
 /**
  *  #4
  *  Function - multiply
