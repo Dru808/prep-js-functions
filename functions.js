@@ -23,7 +23,7 @@ var b = 3
  *  Store this value in a variable named `sum`.
  */
 
-function add( a, b ){
+function add(a, b){
 	return a + b;
 }
 
@@ -53,7 +53,12 @@ var difference = subtract(a, b);
  *  Store this value in a variable named `product`
  */
 
+function multiply(){
+	return b * a;
 
+}
+
+var product = multiply();
 /**
  *  #5
  *  Function - checkDifference
