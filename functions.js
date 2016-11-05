@@ -69,7 +69,12 @@ var product = multiply(2, 4);
  *  value stored in `difference`.
  */
 
-function 
+function checkDifference(X){
+	return "My football team lost " + X + " times this week";
+}
+
+var text = checkDifference(difference);
+console.log(text);
 
 /**
  *  #6
