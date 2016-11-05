@@ -74,7 +74,7 @@ function checkDifference(X){
 }
 
 var text = checkDifference(difference);
-console.log(text);
+// console.log(text);
 
 /**
  *  #6
@@ -86,7 +86,12 @@ console.log(text);
  *  stored in the variable `sum`.
  */
 
+function checkSum(X){
+	return "I CAN ADDZ " +X+ " NUMBERS";
+}
 
+var text2 = checkSum(sum);
+console.log(text2);
 /**
  *  #7
  *  Function - checkProduct
