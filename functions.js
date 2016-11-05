@@ -186,7 +186,7 @@ function verifyDrinkingAge(age){
 	return age > 21;
 }
 
-var canDrinkBeer = verifyDrinkingAge(34);
+var canDrinkBeer = verifyDrinkingAge(14);
 // console.log(canDrinkBeer);
 
 /**
@@ -248,6 +248,13 @@ var whatFavFood = eatFood("Andrew ", "Tram", "YOU KNOW!");
  *  othewise the message will be `"Let it go.... LET IT GOOOOOOoOoOoOo..."`
  */
 
-function repeater(){
-	return 
+function repeater(X){
+	if(canDrinkBeer === true){
+		return "Bacon Pancakes, makin' Bacon Pancakes...".repeat(X)
+	}  else{
+		return "Let it go.... LET IT GOOOOOOoOoOoOo..." .repeat(X)
+	}
 }
+
+var whatDoesItMean = repeater(howMany);
+// console.log(whatDoesItMean);
