@@ -145,6 +145,7 @@ function addThenMultiply(num1, num2, num3){
 
 var howMany = addThenMultiply(2, 5, 3);
 // console.log(howMany);
+
 /**
  *  #10
  *  Function - createFullName
@@ -160,7 +161,12 @@ var howMany = addThenMultiply(2, 5, 3);
  * Store the return value to a variable named `myFullName`
  */
 
+function createFullName(firstName, lastName){
+	return firstName + lastName;
+}
 
+var myFullName = createFullName("Andrew ", "Tram");
+// console.log(myFullName);
 /**
  *  #11
  *  Function - verifyDrinkingAge
@@ -176,6 +182,12 @@ var howMany = addThenMultiply(2, 5, 3);
  *  Store the return value to a variable named** `canDrinkBeer`
  */
 
+function verifyDrinkingAge(age){
+	return age > 21;
+}
+
+var canDrinkBeer = verifyDrinkingAge(34);
+// console.log(canDrinkBeer);
 
 /**
  *  #12
@@ -187,6 +199,15 @@ var howMany = addThenMultiply(2, 5, 3);
  *  should be "This Party will have an open bar".
  */
 
+function throwParty(){
+	 if (canDrinkBeer === false){
+		return "The party will have tons of cake!"
+	}else {
+		return "This party will have an open bar"
+	}
+}
+var kidsEatCake = throwParty();
+// console.log(kidsEatCake);
 
 /**
  *  #13
@@ -208,6 +229,12 @@ var howMany = addThenMultiply(2, 5, 3);
  *      "Peter Bojanglesloves loves to eat California Burritos"
  */
 
+function eatFood(firstName, lastName, food){
+	return firstName + lastName + " loves to eat " + food;
+}
+
+var whatFavFood = eatFood("Andrew ", "Tram", "YOU KNOW!");
+// console.log(whatFavFood);
 
 /**
  *  #14
@@ -221,3 +248,6 @@ var howMany = addThenMultiply(2, 5, 3);
  *  othewise the message will be `"Let it go.... LET IT GOOOOOOoOoOoOo..."`
  */
 
+function repeater(){
+	return 
+}
