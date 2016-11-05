@@ -91,7 +91,7 @@ function checkSum(X){
 }
 
 var text2 = checkSum(sum);
-console.log(text2);
+// console.log(text2);
 /**
  *  #7
  *  Function - checkProduct
@@ -101,7 +101,12 @@ console.log(text2);
  *  then prints the result to the console.
  */
 
+function checkProduct(multiply, subtract){
+	return multiply * subtract;
+}
 
+var multiply = checkProduct(product, difference);
+// console.log(multiply);
 /**
  *  #8
  *  Function - addThenSubtract
