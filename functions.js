@@ -121,7 +121,12 @@ var multiply = checkProduct(product, difference);
  *      addThenSubtract(4, 5, 7); //-> returns 2 because 4 + 5 - 7 = 2
  */
 
+function addThenSubtract(num1, num2, num3){
+	return num1 + num2 - num3;
+}
 
+var math2 = addThenSubtract(2, 4, 3);
+// console.log(math2);
 /**
  *  #9
  *  Function - addThenMultiply
@@ -134,7 +139,12 @@ var multiply = checkProduct(product, difference);
  *  Store the return of this function to a variable named `howMany`
  */
 
+function addThenMultiply(num1, num2, num3){
+	return (num1 + num2) * num3;
+}
 
+var howMany = addThenMultiply(2, 5, 3);
+// console.log(howMany);
 /**
  *  #10
  *  Function - createFullName
